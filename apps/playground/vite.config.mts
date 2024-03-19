@@ -3,6 +3,9 @@ import type { UserConfig } from "vite";
 
 const config: UserConfig = {
   plugins: [react()],
+  build: {
+    cssMinify: "lightningcss",
+  },
 };
 
 export default config;

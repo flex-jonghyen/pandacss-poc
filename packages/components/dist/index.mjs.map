@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/Button.tsx", "../src/Layout.tsx"],
+  "sourcesContent": ["import { styled } from \"@fubao/design-token/jsx\";\n\nexport const Button = styled(\"button\", {\n  base: {\n    background: \"red\",\n  },\n  variants: {\n    color: {\n      primary: {\n        background: \"blue\",\n      },\n      secondary: {\n        background: \"green\",\n      },\n    },\n  },\n  defaultVariants: {\n    color: \"primary\",\n  },\n});\n", "import { Flex, type FlexProps } from \"@fubao/design-token/jsx\";\n\nexport const Layout = (props: FlexProps) => {\n  return <Flex direction=\"column\" {...props}></Flex>;\n};\n"],
+  "mappings": ";;;;AAAA,SAAS,cAAc;AAEhB,IAAM,SAAS,OAAO,UAAU;AAAA,EACrC,MAAM;AAAA,IACJ,YAAY;AAAA,EACd;AAAA,EACA,UAAU;AAAA,IACR,OAAO;AAAA,MACL,SAAS;AAAA,QACP,YAAY;AAAA,MACd;AAAA,MACA,WAAW;AAAA,QACT,YAAY;AAAA,MACd;AAAA,IACF;AAAA,EACF;AAAA,EACA,iBAAiB;AAAA,IACf,OAAO;AAAA,EACT;AACF,CAAC;;;ACnBD,SAAS,YAA4B;AAG5B;AADF,IAAM,SAAS,wBAAC,UAAqB;AAC1C,SAAO,oBAAC,QAAK,WAAU,UAAU,GAAG,OAAO;AAC7C,GAFsB;",
+  "names": []
+}

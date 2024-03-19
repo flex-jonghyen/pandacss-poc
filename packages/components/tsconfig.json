@@ -1,0 +1,13 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "target": "ESNext",
+    "verbatimModuleSyntax": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "rootDir": "src",
+    "outDir": "dist"
+  }
+}

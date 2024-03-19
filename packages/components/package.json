@@ -1,0 +1,29 @@
+{
+  "name": "@fubao/components",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./styles.css": "./styles.css"
+  },
+  "scripts": {
+    "build": "nanobundle build --clean",
+    "cssgen": "pandacss cssgen --clean"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@fubao/design-token": "workspace:^",
+    "@pandacss/dev": "^0.35.0",
+    "@types/react": "^18.2.67",
+    "nanobundle": "^2.0.0",
+    "typescript": "^5.4.2"
+  },
+  "peerDependencies": {
+    "@fubao/design-token": "*"
+  }
+}

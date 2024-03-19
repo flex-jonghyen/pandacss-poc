@@ -910,6 +910,7 @@ const RAW_RUNTIME_STATE =
           ["@fubao/playground", "workspace:apps/playground"],\
           ["@fubao/components", "virtual:0a749e0dac214c03f4dd08778c0668915ae700cec314d34d1df15af9abb70844109e2f6f48b5c03338734a1f78dc1447350a8ee17d4c8a75f8071f9cd96fa1fd#workspace:packages/components"],\
           ["@fubao/design-token", "virtual:0a749e0dac214c03f4dd08778c0668915ae700cec314d34d1df15af9abb70844109e2f6f48b5c03338734a1f78dc1447350a8ee17d4c8a75f8071f9cd96fa1fd#workspace:packages/token"],\
+          ["@pandacss/dev", "npm:0.35.0"],\
           ["@types/react", "npm:18.2.67"],\
           ["@types/react-dom", "npm:18.2.22"],\
           ["@vitejs/plugin-react", "virtual:0a749e0dac214c03f4dd08778c0668915ae700cec314d34d1df15af9abb70844109e2f6f48b5c03338734a1f78dc1447350a8ee17d4c8a75f8071f9cd96fa1fd#npm:4.2.1"],\

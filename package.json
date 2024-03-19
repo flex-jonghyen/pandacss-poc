@@ -1,0 +1,8 @@
+{
+  "name": "fubao",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "packageManager": "yarn@4.1.1"
+}

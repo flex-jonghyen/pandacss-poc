@@ -22,6 +22,10 @@ const RAW_RUNTIME_STATE =
       "reference": "workspace:packages/components"\
     },\
     {\
+      "name": "@fubao/config",\
+      "reference": "workspace:packages/config"\
+    },\
+    {\
       "name": "@fubao/design-token",\
       "reference": "workspace:packages/token"\
     }\
@@ -30,6 +34,7 @@ const RAW_RUNTIME_STATE =
   "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
   "fallbackExclusionList": [\
     ["@fubao/components", ["virtual:0a749e0dac214c03f4dd08778c0668915ae700cec314d34d1df15af9abb70844109e2f6f48b5c03338734a1f78dc1447350a8ee17d4c8a75f8071f9cd96fa1fd#workspace:packages/components", "workspace:packages/components"]],\
+    ["@fubao/config", ["workspace:packages/config"]],\
     ["@fubao/design-token", ["virtual:0a749e0dac214c03f4dd08778c0668915ae700cec314d34d1df15af9abb70844109e2f6f48b5c03338734a1f78dc1447350a8ee17d4c8a75f8071f9cd96fa1fd#workspace:packages/token", "workspace:packages/token"]],\
     ["@fubao/playground", ["workspace:apps/playground"]],\
     ["fubao", ["workspace:."]]\
@@ -848,6 +853,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@fubao-components-virtual-fb036a4c45/1/packages/components/",\
         "packageDependencies": [\
           ["@fubao/components", "virtual:0a749e0dac214c03f4dd08778c0668915ae700cec314d34d1df15af9abb70844109e2f6f48b5c03338734a1f78dc1447350a8ee17d4c8a75f8071f9cd96fa1fd#workspace:packages/components"],\
+          ["@fubao/config", "workspace:packages/config"],\
           ["@fubao/design-token", "virtual:0a749e0dac214c03f4dd08778c0668915ae700cec314d34d1df15af9abb70844109e2f6f48b5c03338734a1f78dc1447350a8ee17d4c8a75f8071f9cd96fa1fd#workspace:packages/token"],\
           ["@pandacss/dev", "npm:0.35.0"],\
           ["@types/fubao__design-token", null],\
@@ -866,6 +872,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./packages/components/",\
         "packageDependencies": [\
           ["@fubao/components", "workspace:packages/components"],\
+          ["@fubao/config", "workspace:packages/config"],\
           ["@fubao/design-token", "virtual:0a749e0dac214c03f4dd08778c0668915ae700cec314d34d1df15af9abb70844109e2f6f48b5c03338734a1f78dc1447350a8ee17d4c8a75f8071f9cd96fa1fd#workspace:packages/token"],\
           ["@pandacss/dev", "npm:0.35.0"],\
           ["@types/react", "npm:18.2.67"],\
@@ -876,11 +883,23 @@ const RAW_RUNTIME_STATE =
         "linkType": "SOFT"\
       }]\
     ]],\
+    ["@fubao/config", [\
+      ["workspace:packages/config", {\
+        "packageLocation": "./packages/config/",\
+        "packageDependencies": [\
+          ["@fubao/config", "workspace:packages/config"],\
+          ["@pandacss/dev", "npm:0.35.0"],\
+          ["typescript", "patch:typescript@npm%3A5.4.2#optional!builtin<compat/typescript>::version=5.4.2&hash=5adc0c"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
     ["@fubao/design-token", [\
       ["virtual:0a749e0dac214c03f4dd08778c0668915ae700cec314d34d1df15af9abb70844109e2f6f48b5c03338734a1f78dc1447350a8ee17d4c8a75f8071f9cd96fa1fd#workspace:packages/token", {\
         "packageLocation": "./.yarn/__virtual__/@fubao-design-token-virtual-e743a5824c/1/packages/token/",\
         "packageDependencies": [\
           ["@fubao/design-token", "virtual:0a749e0dac214c03f4dd08778c0668915ae700cec314d34d1df15af9abb70844109e2f6f48b5c03338734a1f78dc1447350a8ee17d4c8a75f8071f9cd96fa1fd#workspace:packages/token"],\
+          ["@fubao/config", "workspace:packages/config"],\
           ["@pandacss/dev", "npm:0.35.0"],\
           ["@types/react", "npm:18.2.67"],\
           ["react", "npm:18.2.0"],\
@@ -896,6 +915,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./packages/token/",\
         "packageDependencies": [\
           ["@fubao/design-token", "workspace:packages/token"],\
+          ["@fubao/config", "workspace:packages/config"],\
           ["@pandacss/dev", "npm:0.35.0"],\
           ["@types/react", "npm:18.2.67"],\
           ["typescript", "patch:typescript@npm%3A5.4.2#optional!builtin<compat/typescript>::version=5.4.2&hash=5adc0c"]\

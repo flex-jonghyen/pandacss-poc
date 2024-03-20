@@ -660,6 +660,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@fubao/components@workspace:packages/components"
   dependencies:
+    "@fubao/config": "workspace:^"
     "@fubao/design-token": "workspace:^"
     "@pandacss/dev": "npm:^0.35.0"
     "@types/react": "npm:^18.2.67"
@@ -671,10 +672,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@fubao/config@workspace:^, @fubao/config@workspace:packages/config":
+  version: 0.0.0-use.local
+  resolution: "@fubao/config@workspace:packages/config"
+  dependencies:
+    "@pandacss/dev": "npm:^0.35.0"
+    typescript: "npm:^5.4.2"
+  languageName: unknown
+  linkType: soft
+
 "@fubao/design-token@workspace:^, @fubao/design-token@workspace:packages/token":
   version: 0.0.0-use.local
   resolution: "@fubao/design-token@workspace:packages/token"
   dependencies:
+    "@fubao/config": "workspace:^"
     "@pandacss/dev": "npm:^0.35.0"
     "@types/react": "npm:^18.2.67"
     typescript: "npm:^5.4.2"

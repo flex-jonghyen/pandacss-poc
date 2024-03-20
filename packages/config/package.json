@@ -1,11 +1,13 @@
 {
-  "name": "@fubao/config",
+  "name": "@fubao/fubao",
   "type": "module",
+  "bin": "./scripts.mjs",
   "exports": {
     ".": "./index.mts"
   },
   "dependencies": {
-    "@pandacss/dev": "^0.35.0"
+    "@pandacss/dev": "^0.35.0",
+    "zx": "^7.2.3"
   },
   "devDependencies": {
     "typescript": "^5.4.2"

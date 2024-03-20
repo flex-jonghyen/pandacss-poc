@@ -11,14 +11,14 @@
   },
   "scripts": {
     "build": "nanobundle build --clean --tsconfig=tsconfig.build.json",
-    "cssgen": "pandacss cssgen --clean"
+    "cssgen": "fubao cssgen --clean"
   },
   "dependencies": {
     "react": "^18.2.0"
   },
   "devDependencies": {
-    "@fubao/config": "workspace:^",
     "@fubao/design-token": "workspace:^",
+    "@fubao/fubao": "workspace:^",
     "@pandacss/dev": "^0.35.0",
     "@types/react": "^18.2.67",
     "nanobundle": "^2.0.0",

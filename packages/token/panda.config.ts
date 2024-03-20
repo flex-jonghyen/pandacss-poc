@@ -1,3 +1,3 @@
-import config from "@fubao/config";
+import config from "@fubao/fubao";
 
 export default config;

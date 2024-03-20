@@ -1,4 +1,4 @@
-import _config from "@fubao/config";
+import _config from "@fubao/fubao";
 import { defineConfig } from "@pandacss/dev";
 
 const config = defineConfig({
